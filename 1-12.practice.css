@@ -56,19 +56,18 @@
   width: 100%;
   padding: 20px;
   background-color: blue;
+}
+
+.skyblue{
   display: flex;
-  flex-direction: column;
-  justify-content:center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.upper{
-  display:flex;
-}
-
-.lower{
+.skyblue > div{
   flex-basis: 45%;
   max-width: 600px;
-  height:40px;
-  margin:10px;
+  height: 40px;
+  margin: 10px;
   background-color: skyblue;
 }
